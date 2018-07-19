@@ -9,3 +9,8 @@
 **JavaScript Topic**
  - [Calling JavaScript Function in Global Scope](https://github.com/LunaM00n/programming-collection/blob/master/JS1.md) - (Ko Thet Khine)
 
+
+**Object Oriented Programming Topic**
+
+ - [Gentle Introduction to Object Oriented Programming #1](https://github.com/LunaM00n/programming-collection/blob/master/gioop1.md) - (Ko Thet Khine)
+
