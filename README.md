@@ -14,3 +14,4 @@
 
  - [Gentle Introduction to Object Oriented Programming #1](https://github.com/LunaM00n/programming-collection/blob/master/gioop1.md) - (Ko Thet Khine)
 
+ - [Gentle Introduction to Object Oriented Programming #2](https://github.com/LunaM00n/programming-collection/blob/master/gioop2.md) - (Ko Thet Khine)
