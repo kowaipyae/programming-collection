@@ -20,6 +20,8 @@ Ko Thet Khine တင္ထားတဲ့ Programming ဆိုင္ရာ Know
  - [Different Semantics in Programming Languages](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge5.md) - (Ko Thet Khine)
  
  - [Multi Programming , Process , Thread , Multi Threading](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge6.md) - (Ko Thet Khine)
+ 
+ - [Why we need to learn Data Structure & Algorithm](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge7.md) - (Ko Thet Khine)
 
 **JavaScript Topic**
  - [Calling JavaScript Function in Global Scope](https://github.com/LunaM00n/programming-collection/blob/master/JavaScript/JS1.md) - (Ko Thet Khine)
