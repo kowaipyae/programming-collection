@@ -15,9 +15,9 @@
 
     public class Employee 
     { 
-    public Money calculatePay(); 
-    public void save(); 
-    public String reportHours(); 
+	    public Money calculatePay(); 
+	    public void save(); 
+	    public String reportHours(); 
     }
 
 ၿပထားတဲ့ class မွာ responsiblitiy 3 ခုပါေနပါတယ္။ ဒီအတုိင္းၾကည့္ရင္ တခုတည္းထင္ရေပမဲ့ calculatePay ဆုိတာ accounting နဲ.ဆုိင္တာပါ။ save ကေတာ့ database operation နဲ.ဆုိင္တာပါ။ reportHours() ကေတာ့ HR နဲ.ဆုိင္တာပါ။ ၿပင္ပ realworld က အဲ့ဒီ responsibility ေတြနဲ. တိုက္ရုိက္သက္ဆုိင္တဲ့ entity (ဒီေနရာမွာ calculatePay သည္ HR accounting, save သည္ database, reportHours သည္ HR, management) ေတြသည္ မတူပါဘူး။ ဒါေၾကာင့္ Employee class သည္ single responsiblity ကိုခ်ိဳးေဖာက္ေနပါတယ္။ ၿမင္သာေအာင္ေၿပာရမယ္ဆုိရင္။ Database ကုိေၿပာင္းမယ္ဆုိလဲ (ဥပမာ Employee Table structure ေၿပာင္းသြားလုိ.ဆုိပါေတာ့ ) Employee class ကုိၿပင္ရမယ္။ Payment ေတြေၿပာင္းသြားတယ္ဆုိရင္လဲ Employee class ကိုၿပင္ရမယ္ ဒါဆုိရင္ reason of change သည္ တခုထက္ပိုေနပါၿပီ ဒါဆုိရင္ single responsibility နဲ.မကိုက္ေတာ့ပါဘူး။ Single Responsiblity နဲ.မကိုက္ေတာ့ ဘာၿဖစ္လဲဆုိေတာ့ Cohesion နည္းပါတယ္။ Cohesion နည္းေတာ့ သူ.ကုိ resuse လုပ္ဖုိ.အဆင္မေၿပပါဘူး။ ဥပမာ တၿခား module တခုကေန Employee data ကိုပဲသံုးခ်င္တယ္ pay တြက္တာ မလိုခ်င္ဘူးဆုိရင္ Employee ကုိ reuse လုပ္ဖုိ.အဆင္မေၿပပါဘူး။ ေနာက္တခုက responsibility ေတြေရာေနတဲ့အတြက္ maintenance လုပ္ရတာခက္ပါတယ္။ အဆင္မေၿပပါဘူး။ ဒါေၾကာင့္ ေနာက္ပိုင္း JavaEE Framework ေတြၿဖစ္တဲ့ spring framework လုိေကာင္မ်ိဳးေတြမွာ layer ခြဲၿပီးေတာ့ domain model ကုိသက္သက္ (ဒီေနရာမွာ Employee နဲ.ဆုိင္တဲ့ အခ်က္အလက္ကုိပဲသိမ္းမယ္)။ ေနာက္ service layer (ဒီေနရာမွာ pay calculation နဲ. reportHour ကုိလုပ္မယ္) ေနာက္ DAO layer(ဒီေနရာမွာ Employee object ကို database မွာ save တာကိုလုပ္မယ္ )ဒါမ်ိဳးေတြခြဲလုပ္ၾကပါတယ္။ အဲ့လုိခြဲလုပ္ေတာ့ တခုခုကုိ ၿပင္ခ်င္ရင္ ေနာက္တခုကုိသြားမထိပါဘူး။ ဥပမာ view layer ကုိၿပင္တာနဲ. database layer ကုိသြားထိစရာမလိုပါဘူး။ အဲ့ဒါမ်ိဳးကိုက်ေတာ့ seperation of concern လို.သံုးပါတယ္။ Concern ဆုိတာကေတာ့ system တစ္ခုကုိ feature ေတြ အေပၚမူတည္ၿပီး ခြဲတာပါ။ Feature ဆိုတာကေတာ့ (domain, service, controller, view,database) အဲ့လို feature ေတြ ေပၚမူတည္ၿပီး ခြဲပစ္တာပါ။
@@ -34,16 +34,16 @@ OCP ကေတာ့ open of extension ,close for modification ကို ရည�
 
     public long sumArea(List<Shape> shapes) 
     { 
-    long totalArea = 0; 
-    for(Shape s : shapes) 
-    { 
-    if(s instanceof Circle) 
-    { Circle c = (Circle)s; totalArea += c.area(); 
-    } 
-    else if(s instanceof Rectangle) 
-    { Rectangle r = (Rectangle) s; 
-    totalArea += r.area(); } 
-    } return totalArea; 
+	    long totalArea = 0; 
+	    for(Shape s : shapes) 
+	    { 
+		    if(s instanceof Circle) 
+			    { Circle c = (Circle)s; totalArea += c.area(); 
+		    } 
+		    else if(s instanceof Rectangle) 
+			    { Rectangle r = (Rectangle) s; 
+			    totalArea += r.area(); } 
+	    } return totalArea; 
     }
 
 အေပၚကေပးထားတဲ့ method မွာ shape ေတြကို loop ပတ္ၿပီး တခုခ်င္းစီကုိ စစ္ပါတယ္ ။ Circle ဆုိ Circle, Rectangle ဆုိ Rectangle အေနနဲ. typecast လုပ္ၿပီး area ေတြကိုေပါင္းပါတယ္။ အဲ့မွာ ဘာၿပႆ နာရိွလဲဆုိေတာ့ close for extension ၿဖစ္ေနတာပါ။ ဆုိခ်င္တာက ကြ်န္ေတာ္က ေနာက္ထပ္ Shape အသစ္ area ကိုတြက္ခ်င္တယ္ Cube ဆုိပါေတာ့ဒါဆုိရင္ ခုနက method sumArea ရဲ. for loop ထဲမွာ if တေၾကာင္းထဲ့ၿပီး type cast လုပ္ area ကိုေခၚ အဲ့လိုလုပ္ရမွာပါ။ ဘာလုိ.လဲဆုိေတာ့ OCP ကုိေဖာက္ဖ်က္လုိ.ပါ။ OCP အတုိင္း ေရးမယ္ဆုိရင္ ဒီလိုရမွာပါ။
