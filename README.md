@@ -8,33 +8,35 @@ Ko Thet Khine တင္ထားတဲ့ Programming ဆိုင္ရာ Know
 
 **Knowledges** 
 
- - [Programming Language and their Execution Environments](https://github.com/LunaM00n/programming-collection/blob/master/knowledge1.md) - (Ko Thet Khine)
+ - [Programming Language and their Execution Environments](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge1.md) - (Ko Thet Khine)
 
- - [Installing Compilers & IDE](https://github.com/LunaM00n/programming-collection/blob/master/knowledge2.md) - (Ko Thet Khine)
+ - [Installing Compilers & IDE](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge2.md) - (Ko Thet Khine)
 
 
- - [How C/C++ Works](https://github.com/LunaM00n/programming-collection/blob/master/knowledge3.md) - (Ko Thet Khine)
+ - [How C/C++ Works](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge3.md) - (Ko Thet Khine)
 
- - [How to learn Data Structure & Algorithm](https://github.com/LunaM00n/programming-collection/blob/master/knowledge4.md) - (Ko Thet Khine)
+ - [How to learn Data Structure & Algorithm](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge4.md) - (Ko Thet Khine)
  
- - [Differnt Semantics in Programming Languages](https://github.com/LunaM00n/programming-collection/blob/master/knowledge5.md) - (Ko Thet Khine)
+ - [Different Semantics in Programming Languages](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge5.md) - (Ko Thet Khine)
+ 
+ - [Multi Programming , Process , Thread , Multi Threading](https://github.com/LunaM00n/programming-collection/blob/master/Knowledges/knowledge6.md) - (Ko Thet Khine)
 
 **JavaScript Topic**
- - [Calling JavaScript Function in Global Scope](https://github.com/LunaM00n/programming-collection/blob/master/JS1.md) - (Ko Thet Khine)
+ - [Calling JavaScript Function in Global Scope](https://github.com/LunaM00n/programming-collection/blob/master/JavaScript/JS1.md) - (Ko Thet Khine)
 
 
 **Object Oriented Programming Topic**
 
- - [Gentle Introduction to Object Oriented Programming #1](https://github.com/LunaM00n/programming-collection/blob/master/gioop1.md) - (Ko Thet Khine)
+ - [Gentle Introduction to Object Oriented Programming #1](https://github.com/LunaM00n/programming-collection/blob/master/OOP/gioop1.md) - (Ko Thet Khine)
 
- - [Gentle Introduction to Object Oriented Programming #2](https://github.com/LunaM00n/programming-collection/blob/master/gioop2.md) - (Ko Thet Khine)
+ - [Gentle Introduction to Object Oriented Programming #2](https://github.com/LunaM00n/programming-collection/blob/master/OOP/gioop2.md) - (Ko Thet Khine)
 
- - [Gentle Introduction to Object Oriented Programming #3](https://github.com/LunaM00n/programming-collection/blob/master/gioop3.md) - (Ko Thet Khine)
+ - [Gentle Introduction to Object Oriented Programming #3](https://github.com/LunaM00n/programming-collection/blob/master/OOP/gioop3.md) - (Ko Thet Khine)
 
- - [Introduction to Object Oriented Principles #1](https://github.com/LunaM00n/programming-collection/blob/master/ioop1.md) - (Ko Thet Khine)
+ - [Introduction to Object Oriented Principles #1](https://github.com/LunaM00n/programming-collection/blob/master/OOP/ioop1.md) - (Ko Thet Khine)
   
- - [Introduction to Object Oriented Principles #2](https://github.com/LunaM00n/programming-collection/blob/master/ioop2.md) - (Ko Thet Khine)
+ - [Introduction to Object Oriented Principles #2](https://github.com/LunaM00n/programming-collection/blob/master/OOP/ioop2.md) - (Ko Thet Khine)
  
- - [S.O.L.I.D Principles #1](https://github.com/LunaM00n/programming-collection/blob/master/solid1.md) - (Ko Thet Khine)
+ - [S.O.L.I.D Principles #1](https://github.com/LunaM00n/programming-collection/blob/master/OOP/solid1.md) - (Ko Thet Khine)
  
- - [S.O.L.I.D Principles #2](https://github.com/LunaM00n/programming-collection/blob/master/solid2.md) - (Ko Thet Khine)
+ - [S.O.L.I.D Principles #2](https://github.com/LunaM00n/programming-collection/blob/master/OOP/solid2.md) - (Ko Thet Khine)
