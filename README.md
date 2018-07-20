@@ -16,6 +16,8 @@ Ko Thet Khine တင္ထားတဲ့ Programming ဆိုင္ရာ Know
  - [How C/C++ Works](https://github.com/LunaM00n/programming-collection/blob/master/knowledge3.md) - (Ko Thet Khine)
 
  - [How to learn Data Structure & Algorithm](https://github.com/LunaM00n/programming-collection/blob/master/knowledge4.md) - (Ko Thet Khine)
+ 
+ - [Differnt Semantics in Programming Languages](https://github.com/LunaM00n/programming-collection/blob/master/knowledge5.md) - (Ko Thet Khine)
 
 **JavaScript Topic**
  - [Calling JavaScript Function in Global Scope](https://github.com/LunaM00n/programming-collection/blob/master/JS1.md) - (Ko Thet Khine)
